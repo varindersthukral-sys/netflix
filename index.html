@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THUKRALS ETHNIC</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brown: '#5c2e00',
+            gold: '#c58b35',
+            cream: '#faf7f2'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-cream text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+
+      <h1 class="text-2xl font-bold text-brown tracking-wide">
+        THUKRALS <span class="text-gold">ETHNIC</span>
+      </h1>
+
+      <div class="hidden md:flex gap-8 font-medium">
+        <a href="#home" class="hover:text-gold transition">Home</a>
+        <a href="#products" class="hover:text-gold transition">Products</a>
+        <a href="#about" class="hover:text-gold transition">About</a>
+        <a href="#contact" class="hover:text-gold transition">Contact</a>
+      </div>
+
+      <a href="tel:9810531313"
+         class="bg-brown text-white px-5 py-2 rounded-full hover:bg-gold transition">
+        Call Us
+      </a>
+    </div>
+  </nav>
+
+
+  <!-- Hero Section -->
+  <section id="home"
+    class="min-h-[85vh] flex items-center bg-gradient-to-r from-[#fffaf4] to-[#f1e3d2]">
+
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+
+      <div>
+        <p class="text-gold uppercase tracking-[4px] font-semibold mb-4">
+          Premium Men's Ethnic Wear
+        </p>
+
+        <h2 class="text-5xl md:text-7xl font-bold text-brown leading-tight">
+          Style That
+          <span class="text-gold">Defines You.</span>
+        </h2>
+
+        <p class="mt-6 text-lg text-gray-600 max-w-xl">
+          Discover premium ethnic and party wear for every special occasion.
+          From elegant Sherwanis to stylish Indo Western outfits.
+        </p>
+
+        <div class="mt-8 flex flex-wrap gap-4">
+          <a href="#products"
+             class="bg-brown text-white px-7 py-3 rounded-full font-semibold hover:bg-gold transition">
+            Explore Collection
+          </a>
+
+          <a href="tel:9810531313"
+             class="border-2 border-brown text-brown px-7 py-3 rounded-full font-semibold hover:bg-brown hover:text-white transition">
+            Contact Us
+          </a>
+        </div>
+      </div>
+
+      <div class="relative">
+        <div class="bg-brown rounded-3xl p-3 shadow-2xl">
+          <img
+            src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=900&q=80"
+            alt="Men's ethnic fashion"
+            class="rounded-2xl w-full h-[500px] object-cover">
+        </div>
+
+        <div class="absolute -bottom-5 -left-5 bg-white shadow-xl rounded-2xl px-6 py-4">
+          <p class="text-sm text-gray-500">Visit Us</p>
+          <p class="font-bold text-brown">THUKRALS ETHNIC</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Products -->
+  <section id="products" class="py-20 bg-white">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+      <div class="text-center mb-14">
+        <p class="text-gold uppercase tracking-[3px] font-semibold">
+          Our Collection
+        </p>
+
+        <h2 class="text-4xl md:text-5xl font-bold text-brown mt-2">
+          Explore Our Styles
+        </h2>
+
+        <p class="text-gray-500 mt-4">
+          Premium outfits designed for weddings, celebrations and special occasions.
+        </p>
+      </div>
+
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-7">
+
+        <!-- Card -->
+        <div class="group bg-cream rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition">
+          <img
+            src="https://images.unsplash.com/photo-1583391733956-6c78276477e2?auto=format&fit=crop&w=600&q=80"
+            class="w-full h-72 object-cover group-hover:scale-105 transition duration-500"
+            alt="Sherwani">
+
+          <div class="p-5">
+            <h3 class="text-xl font-bold text-brown">Sherwani</h3>
+            <p class="text-gray-500 mt-2">Royal wedding collection.</p>
+          </div>
+        </div>
+
+
+        <div class="group bg-cream rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition">
+          <img
+            src="https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?auto=format&fit=crop&w=600&q=80"
+            class="w-full h-72 object-cover group-hover:scale-105 transition duration-500"
+            alt="Kurta Pajama">
+
+          <div class="p-5">
+            <h3 class="text-xl font-bold text-brown">Kurta Pajama</h3>
+            <p class="text-gray-500 mt-2">Classic ethnic elegance.</p>
+          </div>
+        </div>
+
+
+        <div class="group bg-cream rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition">
+          <img
+            src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=600&q=80"
+            class="w-full h-72 object-cover group-hover:scale-105 transition duration-500"
+            alt="Coat Pant">
+
+          <div class="p-5">
+            <h3 class="text-xl font-bold text-brown">Coat Pant</h3>
+            <p class="text-gray-500 mt-2">Modern formal fashion.</p>
+          </div>
+        </div>
+
+
+        <div class="group bg-cream rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition">
+          <img
+            src="https://images.unsplash.com/photo-1598808503746-f34c53b9323e?auto=format&fit=crop&w=600&q=80"
+            class="w-full h-72 object-cover group-hover:scale-105 transition duration-500"
+            alt="Indo Western">
+
+          <div class="p-5">
+            <h3 class="text-xl font-bold text-brown">Indo Western</h3>
+            <p class="text-gray-500 mt-2">Contemporary ethnic style.</p>
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- More Products -->
+      <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-7">
+
+        <div class="border border-gray-200 rounded-2xl p-6 hover:border-gold transition">
+          <h3 class="text-xl font-bold text-brown">Jodhpuri</h3>
+          <p class="text-gray-500 mt-2">
+            Elegant and sophisticated traditional wear.
+          </p>
+        </div>
+
+        <div class="border border-gray-200 rounded-2xl p-6 hover:border-gold transition">
+          <h3 class="text-xl font-bold text-brown">Kurta Pajama With Jacket</h3>
+          <p class="text-gray-500 mt-2">
+            A stylish combination for celebrations.
+          </p>
+        </div>
+
+        <div class="border border-gray-200 rounded-2xl p-6 hover:border-gold transition">
+          <h3 class="text-xl font-bold text-brown">Party Wear Shirts</h3>
+          <p class="text-gray-500 mt-2">
+            Smart styles for parties and occasions.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- About -->
+  <section id="about" class="py-20 bg-cream">
+
+    <div class="max-w-6xl mx-auto px-6 text-center">
+
+      <p class="text-gold uppercase tracking-[3px] font-semibold">
+        About Us
+      </p>
+
+      <h2 class="text-4xl font-bold text-brown mt-3">
+        Tradition Meets Modern Style
+      </h2>
+
+      <p class="max-w-3xl mx-auto text-gray-600 mt-6 leading-8">
+        THUKRALS ETHNIC brings together timeless Indian ethnic fashion
+        and modern designs. Our collection is created for men who want
+        to look confident, elegant and stylish on every special occasion.
+      </p>
+
+    </div>
+  </section>
+
+
+  <!-- Contact CTA -->
+  <section id="contact" class="py-20 bg-brown text-white">
+
+    <div class="max-w-5xl mx-auto px-6 text-center">
+
+      <p class="text-gold uppercase tracking-[4px] font-semibold">
+        Get In Touch
+      </p>
+
+      <h2 class="text-4xl md:text-5xl font-bold mt-3">
+        Find Your Perfect Ethnic Look
+      </h2>
+
+      <p class="text-gray-300 mt-5">
+        Contact THUKRALS ETHNIC for product details and enquiries.
+      </p>
+
+      <a href="tel:9810531313"
+         class="inline-block mt-8 bg-white text-brown px-8 py-4 rounded-full font-bold hover:bg-gold hover:text-white transition">
+        📞 9810531313
+      </a>
+
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="bg-[#351900] text-gray-300 py-8">
+
+    <div class="max-w-7xl mx-auto px-6 text-center">
+
+      <h3 class="text-xl font-bold text-white">
+        THUKRALS <span class="text-gold">ETHNIC</span>
+      </h3>
+
+      <p class="mt-2 text-sm">
+        Premium Men's Ethnic & Party Wear
+      </p>
+
+      <p class="mt-5 text-sm text-gray-400">
+        © 2026 THUKRALS ETHNIC. All Rights Reserved.
+      </p>
+
+    </div>
+
+  </footer>
+
+</body>
+</html>
